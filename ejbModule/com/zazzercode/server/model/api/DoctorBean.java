@@ -7,12 +7,12 @@ import javax.ejb.Stateless;
  * @author prayag
  */
 @Stateless
-public class Doctor implements DoctorRemote {
+public class DoctorBean implements DoctorRemote {
 
     /**
      * Default constructor. 
      */
-    public Doctor() {
+    public DoctorBean() {
     	
     }
 
